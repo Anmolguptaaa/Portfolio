@@ -1,0 +1,219 @@
+*{
+    padding:0;margin:0; box-sizing : border-box;
+}
+header{
+    width :100%;
+    height :100vh;
+    background-image: url(image/black-paper-background.webp);
+    background-size: 100% ,cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 48% 100%, 48% 100%, 0 75%);
+}
+.logo{
+    color:rgb(255, 145, 0);
+    font-size: 50px;
+    padding-left: 100px;
+}
+.menu a{
+    color : white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin:5px;
+    font-weight: bold;
+}
+.menu{
+    padding-right: 100px;
+}
+nav{
+    width:100%;
+    height: 70px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a:hover{
+    background: rgb(128, 0, 92);    
+}
+.content{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 450px;
+
+}
+.content h1{
+    font-size: 40px;
+    margin:10px 0px;
+}
+.content p{
+    font-size: 20px;
+}
+.bt{
+    margin-top: 20px;
+    border:none;
+    outline: none;
+    padding:10px;
+    color: white;
+    background: orange;
+
+}
+#about{
+    padding :250px 50px;
+    background-color: pink;
+    clip-path: polygon(48% 0, 100% 22%, 100% 100%, 0 100%, 0 22%);
+    height: 100vh;
+}
+.sect{
+    font-weight: bold;
+    text-align: center;
+}
+.sect h1{
+    font-size: 50px;;
+}
+.sect p{
+    font-size: 25px;
+    color: brown;
+}
+.aboutrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.leftside{
+    flex-basis:30%;
+    /*padding-left: 10px;*/
+}
+
+.rightside{
+    flex-basis: 50%;
+} 
+
+.skills{
+    display:flex; 
+}
+.box{
+    flex-wrap:wrap;
+    height:400px;
+    width:400px;
+    background-color: red;
+    justify-content:space-between;
+
+}
+
+.abtm h1{
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #000000;
+    flex: 60%;
+}
+
+.san {
+    width: 20%;
+    hieght : 200px 
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+#skill{
+
+    padding: 100px 50px;
+    /*background-color: bisque; */
+    background-image: url(image/ruvim-noga-o0R4iqk1eRQ-unsplash.jpg);
+    background-size: 100% ,cover;
+    background-repeat: no-repeat;
+    /* clip-path: polygon(0 0, 100% 0, 49% 50%, 100% 100%, 0 100%, 49% 50%); */
+
+    /*clip-path: polygon(64% 0, 35% 0, 35% 28%, 0 28%, 0 60%, 36% 59%, 35% 100%, 63% 100%, 63% 58%, 100% 57%, 100% 26%, 64% 27%); */
+}
+.sect{
+    color: white;
+}
+.skillsrow{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+
+
+}
+.skillsbox{
+    flex-basis:25%;
+    text-align:center;
+    color: white;
+    box-shadow: 2px 3px 5px grey;
+    padding: 20px;
+    margin-top: 3%;
+}
+.skillsbox:hover{
+    background : rgb(255, 192, 230);
+    color:rgb(255, 255, 255);
+    transition: 0.4s;
+}
+.js{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+#contact{
+    background-color: rgb(0, 255, 255);
+    background-size: 100% ,cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    clip-path: polygon(48% 0, 48% 0, 100% 22%, 100% 76%, 49% 100%, 49% 100%, 0 76%, 0 22%);
+}
+.conta{
+    font-size:35px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 100px 50px;
+}
+.contarow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contaleftcol{
+    /*flex-basis: 50%;*/
+    padding-left: 10px;
+}
+.contarightcol{
+    /*flex-basis: 50%;*/
+    margin-right: 50px;
+}
+.contarightcol form{
+    text-align: center;
+}
+.contarightcol h3{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.contarightcol form input{
+    width: 200%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contarightcol form button{
+    justify-content: center;
+    width: 170px;
+    height: 50px;
+}
+#icona{
+    text-align: center;
+    
+}
+@media (width <=400 px){
+    
+}
+
+
